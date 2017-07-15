@@ -2,3 +2,7 @@ img {
     margin: auto;
     align-content: centered;
 }
+h1 {
+    font-family:fantasy;
+    font-size:80 px;
+}
