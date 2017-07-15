@@ -6,3 +6,6 @@ h1 {
     font-family:fantasy;
     font-size:80 px;
 }
+hr {
+    background-color:green;
+}
