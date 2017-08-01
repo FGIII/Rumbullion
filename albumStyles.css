@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    font-family:fantasy;
+    font-size:88px;
+}
+h2 {
+    font-family: fantasy;
+    font-size:44px;
+}
+p {
+    font-family: fantasy;
+    color: grey; 
+}
+table, tr, td, thead tbody {
+    border-collapse: collapse;
+    font-family: fantasy;
+    color: grey;
+    background-color: lightblue;
+}
+ul {
+    font-family: fantasy;
+    color:gray;
+}
