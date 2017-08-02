@@ -1,6 +1,14 @@
 <!DOCTYPE html>
     <html>
      <head>
+         <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
         <title>Album Cover</title>
         <link href="albumStyles.css" rel="stylesheet" type="text/css"/>
         <style>
@@ -26,8 +34,9 @@
          <div> 
                 <h1>HUNKY DORY</h1>
          </div>
-        <div> 
-            <img src="https://upload.wikimedia.org/wikipedia/en/4/40/David_Bowie_-_Hunky_Dory.jpg" />
+        <div class="container"> 
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/40/David_Bowie_-_Hunky_Dory.jpg" 
+            class="img-circle" width="700" height="700"/>
         </div>
          <p>
           By <a href="http://davidbowie.com/noplan/?ref=https://www.google.com"/>David Bowie</a>
@@ -52,9 +61,10 @@
                         <li>Rick Wakeman - Piano</li>
                     </ul>
                 </p>
-                
-                    <table>
-                    <thead>
+                <div class="container">
+    <div class="table-responsive">
+            <table class="table">
+                <thead>
                             <tr>
                                 <th>Track</th>
                                 <th>Title</th>
@@ -62,22 +72,22 @@
                             </tr>
                     </thead>
                     <tbody>
-                            <tr>
+                            <tr class="info">
                                 <td>1</td>
                                 <td>Changes</td>
                                 <td>4:44</td>
                             </tr>
-                            <tr>
+                            <tr class="success">
                                 <td>2</td>
                                 <td>Life on Mars</td>
                                 <td>5:39</td>
                             </tr>
-                            <tr>
+                            <tr class="info">
                                 <td>3</td>
                                 <td>Song for Bob Dylan</td>
                                 <td>4:17</td>
                             </tr>
-                            <tr>
+                            <tr class="success">
                                 <td>4</td>
                                 <td>Andy Warhol</td>
                                 <td>3:57</td>
@@ -87,6 +97,8 @@
                 </center>
             </body>
             </div>
-
+          </div>
+        </div>
+        </div>
 
 </html>
